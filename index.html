@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="jquery-3.6.0.min.js"></script>
+    <script src="code.js"></script>
+</head>
+<body>
+<h1>Order Form</h1>
+
+<table>
+    <tr>
+        <th>Qty</th>
+        <th>Product</th>
+        <th>Price</th>
+        <th>Total</th>
+    </tr>
+    <tr>
+        <td><input type="number" id="JQuery" min="0"></td>
+        <td>Learning Jquery</td>
+        <td>$39.99</td>
+        <td id="totalLearning"></td>
+    </tr>
+    <tr>
+        <td><input type="number" id="donation" min="0"></td>
+        <td>jQuery Donation</td>
+        <td>$14.99</td>
+        <td id="totalDonation"></td>
+    </tr>
+</table>
+
+<p>Grand Total: </p> <p id="grandTotal"></p>
+
+</body>
+</html>
